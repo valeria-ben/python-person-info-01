@@ -7,7 +7,7 @@ def createConnectionToDB():
         host="localhost",
         user="root",
         password="root",
-        database="bd",
+        database="db",
         cursorclass=pymysql.cursors.DictCursor,
     )
     return connection
