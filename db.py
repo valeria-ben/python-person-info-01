@@ -6,7 +6,10 @@ def createConnectionToDB():
         host="localhost",
         user="root",
         password="root",
-        database="db",
+        database="personinfodb",
         cursorclass=pymysql.cursors.DictCursor,
     )
     return connection
+
+def createNewPersonCard():
+    
