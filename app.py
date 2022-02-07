@@ -23,7 +23,6 @@ while True:
     option = int(input("option: "))
     if option == -1:
         """exit app"""
-
         break
     elif option == 0:
         pass
