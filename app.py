@@ -1,4 +1,4 @@
-from xml.etree.ElementTree import Comment
+from db import createNewPersonCard
 
 
 def showMenu():
@@ -25,6 +25,11 @@ while True:
         """exit app"""
         break
     elif option == 0:
+        """create a new person card"""
+        name = input("name: ")
+        age = int(input("age: "))
+        salary = int(input("salary: "))
+        createNewPersonCard(name, age, salary)
         pass
     elif option == 1:
         pass
